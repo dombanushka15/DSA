@@ -4,7 +4,7 @@ using namespace std;
 /*
 Input:
 n = 6, k = 2
-9            k
+9           k
         i   j
 arr = 1 1 3 1 2 3
 
