@@ -3,8 +3,6 @@ using namespace std;
 
 int main() {
     string s;
-    cin >> s;
-
 
     unordered_map<char, int> freq;
 

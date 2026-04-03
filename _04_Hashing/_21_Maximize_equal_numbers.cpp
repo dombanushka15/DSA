@@ -74,6 +74,4 @@ int main(){
     }
 
     cout << maxEqualNumbers(arr, k);
-   
-
 }

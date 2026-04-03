@@ -54,9 +54,5 @@ int main(){
             majority = arr[i];
         }
     }
-
     cout << majority << endl;
-
-
-
 }
