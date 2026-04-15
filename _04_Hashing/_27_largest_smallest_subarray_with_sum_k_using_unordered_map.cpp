@@ -15,11 +15,11 @@ int largestSubarraySum(vector<int>& arr, int k) {
             maximumLength = j + 1;
         }
 
-        if (prefixsum.find(sum - k) != prefixsum.end()) {
+        if (prefixsum.find(sum - k) != prefixsum.end()) { // means that sum - k is present in prefixsum
             int i = prefixsum[sum - k];
             maximumLength = max(maximumLength, j - i);
         }
-        
+           
         if (prefixsum.find(sum) == prefixsum.end()) {
             prefixsum[sum] = j;
         }
