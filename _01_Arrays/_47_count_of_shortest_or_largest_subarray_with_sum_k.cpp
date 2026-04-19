@@ -18,19 +18,19 @@ int countShortestSubarray(vector<int>&arr,int k){
         int sum = 0;
 
         for(int end = start; end < n; end++){
-        sum+=arr[end];
-        // formula = ending index - starting index + 1
-        // in arrays generally index start from 0 to calculate length , hence include both sides.
+            sum+=arr[end];
+            // formula = ending index - starting index + 1
+            // in arrays generally index start from 0 to calculate length , hence include both sides.
               
-        int length = end - start + 1;
-            if(sum==k){
-                 if(length < minimumLength)
-                  length = minimumLength;
-                  count = 1;
-                  // new minimumLength found
-            }
-            else if(length == minimumLength)
-            count++;
+            int length = end - start + 1;
+                if(sum==k){
+                    if(length < minimumLength)
+                        length = minimumLength;
+                        count = 1;
+                        // new minimumLength found
+                }
+                else if(length == minimumLength)
+                count++;
         }
     }
      return count;
