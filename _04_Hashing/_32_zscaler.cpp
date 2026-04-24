@@ -55,7 +55,7 @@ int minimumNumberOfSteps(vector<int>& arr){
         //Add (n-1) to steps
         // logic = 
         //It adds the same value repeatedly.
-        //doesnt depend on i.
+        //does not  depend on i.
     }
     return steps;
 }
