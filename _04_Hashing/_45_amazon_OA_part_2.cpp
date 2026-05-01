@@ -27,7 +27,7 @@ int main() {
         // prefix % k = remainder.
         //i % k = index ca remainder.
         // just keep substracting.
-        // we are adding +k to avoind the values those are negative.
+        // we are adding +k to avoid the values those are negative.
 
         ans += freq[value];
         // all the occurences of valid subarrays keeps ending.
